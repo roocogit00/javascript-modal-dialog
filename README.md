@@ -1,57 +1,56 @@
 JavaScript Dialog Modal
 
-A customizable dialog/modal component built using HTML, CSS, and Vanilla JavaScript.
+A Custom dialog/modal component built using HTML, CSS, and Vanilla JavaScript.
 
-🚀 Features
+🚀 Features: 
 
-Open and close the dialog
+•	Open and close the dialog
 
-Close using the close button
+•	Close using the close button
 
-Optional outside-click closing
+•	Optional outside-click closing
 
-Optional Escape-key closing
+•	Optional Escape-key closing
 
-Show/hide close icon
+•	Show/hide close icon
 
-Show/hide backdrop
+•	Show/hide backdrop
 
-Interactive checkbox controls
+•	Interactive checkbox controls
 
-Custom modal styling
+•	Custom modal styling
 
-🛠️ Technologies Used
+🛠️ Technologies Used: 
 
-HTML5
+•	HTML5
 
-CSS3
+•	CSS3
 
-JavaScript
+•	JavaScript
 
-Native HTML <dialog> API
+•	Native HTML <dialog> API
 
 🧠 What I Learned
 
-Working with the native HTML <dialog> element
+1.	Working with the native HTML <dialog> element
 
-DOM selection and manipulation
+2.	DOM selection and manipulation
 
-Event handling with addEventListener()
+3.	Event handling with addEventListener()
 
-Using showModal() and close()
+4.	Using showModal() and close()
 
-Handling keyboard events
+5.	Handling keyboard events
 
-Detecting outside clicks
+6.	Detecting outside clicks
 
-Dynamically showing and hiding elements
+7.	Dynamically showing and hiding elements
 
-Adding and removing CSS classes
+8.	Adding and removing CSS classes
 
-Customizing the dialog backdrop with ::backdrop
+9.	Customizing the dialog backdrop with ::backdrop
 
 🎯 Project Goal
-
 The goal of this project was to understand how to create an interactive modal component using native browser APIs and Vanilla JavaScript without relying on external libraries.
 
 📂 Project Structure
@@ -62,16 +61,16 @@ javascript-modal-dialog/
 
 ▶️ How to Run
 
-Clone the repository.
+•	Clone the repository.
 
-Open the project in VS Code.
+•	Open the project in VS Code.
 
-Open index.html using Live Server.
+•	Open index.html using Live Server.
 
 📸 Preview
 
-Add a screenshot or GIF of the project here.
+•	Add a screenshot or GIF of the project here.
 
-🔗 Live Demo
+•	🔗 Live Demo
 
-Coming soon.
+•	Coming soon.
