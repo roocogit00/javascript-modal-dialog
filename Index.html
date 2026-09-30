@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js" defer></script>
+</head>
+
+<body style="font-family: sans-serif;">
+    <nav class="navBar">
+        <h1 class="dialog-heading">Dialog</h1>
+    </nav>
+    <div class="container">
+        <dialog class="dialog-container align-dialog">
+            <section>
+                <!-- Header -->
+                <header class="dialog-header">
+                    <h2>Modal Heading</h2>
+                    <button class="closeDialog" id="closeIcon">&#x2715;</button>
+                </header>
+                <!-- Body of dialog-->
+                <div class="dialog-body">
+                    This is modal content. You can put any content here. This has a groovy backdrop!
+                    <br>
+                    You can also close this modal by clicking outside of it or pressing the escape key
+                </div>
+                <footer class="footer">
+                    <button class="closeDialog footercloseBtn">Close</button>
+                </footer>
+            </section>
+        </dialog>
+        <div class="option">
+            <label for="outSideClick">Close dialog on outside click</label>
+            <input type="checkbox" class="optionCheckBox" id="outSideClick">
+        </div>
+        <div class="option">
+            <label for="escCloseClick">Close dialog on escape</label>
+            <input type="checkbox" class="optionCheckBox" id="escCloseClick">
+        </div>
+        <div class="option">
+            <label for="iconClick">Show close icon</label>
+            <input type="checkbox" class="optionCheckBox" id="iconClick">
+        </div>
+        <div class="option">
+            <label for="backdropClick">Show backdrop</label>
+            <input type="checkbox" class="optionCheckBox" id="backdropClick" checked>
+        </div>
+        <button class="dialog-btn">Show Dialog</button>
+    </div>
+</body>
+
+</html>

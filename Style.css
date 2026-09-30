@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: 550;
+}
+
+.navBar {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 4px #0000001a;
+}
+
+.container {
+    text-align: center;
+    margin: 2rem;
+}
+
+.option {
+    display: flex;
+    padding: 6px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.dialog-btn{
+    border: 1px solid black ;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.dialog-container::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease;
+    
+}
+
+
+.dialog-container.no-backdrop::backdrop {
+    background-color: transparent;
+}
+
+.align-dialog {
+    margin: auto;
+
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem; 
+}
+
+
+.dialog-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 1rem;
+
+}
+
+.dialog-body {
+    margin: 2rem 0 2rem;
+}
+
+.footer {
+    display: flex;
+    justify-content:flex-end;
+    margin: 1rem 0 1rem;
+    padding-top: 20px;
+}
+
+
+#closeIcon {
+    border: 1px solid #d3d3d3;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.footercloseBtn {
+    border: 1px solid #d3d3d3;
+    border-radius: 2px;
+    font-size: medium;
+    text-align: center;
+    padding: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e4e4e7;  
+    border-color: #767981;
+}
+
+#closeIcon:hover {
+    background-color: #e4e4e7;  
+    border-color: #767981;
+}
