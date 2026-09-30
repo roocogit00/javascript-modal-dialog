@@ -73,4 +73,4 @@ javascript-modal-dialog/
 
 •	🔗 Live Demo
 
-•	Coming soon.
+•	[Test-it.](https://roocogit00.github.io/javascript-modal-dialog/)
